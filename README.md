@@ -5,5 +5,6 @@ Check out this blog for more detailed information about xmondrian: http://rpboum
 
 ## Run with Docker
 
-1. Execute `docker run -p 8888:8080 -it --rm xmondrian` in the terminal.
-2. Access http://localhost:8888/xmondrian
+1. Build the image: `docker image build -t xmondrian .`
+2. Run the container: `docker run -p 8888:8080 -it --rm xmondrian`
+3. Access http://localhost:8888/xmondrian
